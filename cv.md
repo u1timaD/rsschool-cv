@@ -15,3 +15,11 @@ I worked as a screenwriter and editing director for a long time, but realized th
 * Adaptive layout *(mobile /desktop first)*
 * Git / Webpack /Gulp / Node *(Basic)*
 * Pixel Perfect / Figma
+
+## **Code Example**
+
+```
+function descendingOrder(n) { 
+	return n=parseInt((n.toString().split('').sort((a, b) => b-a)).join(''));
+}
+```
